@@ -33,19 +33,24 @@ The analysis covers **12,459 matches** from five major European leagues between 
 
 The project separates two concepts that are often confused: probability accuracy and bettor profitability. A bookmaker can estimate outcome probabilities reasonably well while still offering prices that generate negative bettor returns because quoted odds include a margin.
 
-## Key Findings
+## What This Means for a Bettor
 
-- **12,459 matches** across five leagues and seven seasons.
-- Average closing-market margin: **4.73%**.
-- Market Brier Score: **0.5769**, compared with **0.6504** for a simple in-sample climatology benchmark.
-- Market-wide historical ROI at Bet365 closing prices: **-6.60%**.
-- The **5.00-10.00** odds band produced full-sample ROI of **-14.88%** with a 95% bootstrap CI of **[-20.69%, -9.41%]**.
-- The same band produced validation-period ROI of **-18.69%**, with a 95% CI of **[-27.24%, -10.61%]**.
-- ROI in the 5.00-10.00 band was negative in all five leagues and all seven seasons.
-- The **10.00+** band moved from approximately **+14.13% ROI** in exploration to **-44.12%** in validation, showing how unstable rare-event returns can be.
-- Short-priced favourites below 1.50 won about **74.5%** of selections but still produced negative ROI.
+The results point to a simple but important conclusion: **an uninformed bettor starts at a disadvantage in the football 1X2 market.**
 
-The strongest evidence is therefore not that bookmakers consistently misestimate longshot probabilities. It is that **reasonable probability calibration can coexist with systematically unfavourable bettor prices**.
+* **Blindly betting the 1X2 market was consistently loss-making.** Across all Bet365 closing prices in the sample, market-wide historical ROI was **-6.60%**. All five leagues produced negative overall returns.
+
+* **A high win rate does not make a bet profitable.** Short-priced favourites below 1.50 won roughly **74.5%** of selections, yet still produced negative ROI. Winning often is not enough if the price is worse than the underlying probability justifies.
+
+* **Odds between 5.00 and 10.00 were the clearest danger zone.** This range produced **-14.88% ROI** in the full sample, with a 95% bootstrap CI of **[-20.69%, -9.41%]**. The result remained negative in the later validation period at **-18.69%**, and ROI was negative across every league and every season analysed.
+
+* **Very high odds can create misleading short-term results.** The 10.00+ range returned approximately **+14.13%** during the exploration period but collapsed to **-44.12%** during validation. A few rare wins can make a strategy appear profitable until more data arrive.
+
+* **Good probability estimates do not imply good betting prices.** The market was reasonably well calibrated overall, meaning quoted probabilities often matched actual outcome frequencies fairly closely. Yet bettors still lost money because the odds include bookmaker margin.
+
+* **Being able to predict the winner is not the same as finding value.** Even when the market correctly estimates that an outcome has, for example, a 30% chance of occurring, the offered payout can still be too low to make the bet profitable.
+
+In practical terms, a **bettor blindly staking across the 1X2 market would have lost about PLN 6.60 for every PLN 100 wagered on average**. Without an edge strong enough to overcome the bookmaker's pricing disadvantage, betting more simply means exposing more money to a negative expected return.
+
 
 ## Data
 
