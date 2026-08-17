@@ -1,0 +1,7 @@
+metric,value
+n_matches,12458.0
+n_bets,37374.0
+mean_b365_overround,0.055878735065750675
+median_b365_overround,0.055809699009291
+min_interpretable_group_n,200.0
+bootstrap_replicates,2000.0

@@ -1,0 +1,9 @@
+# Local database credentials
+.env
+
+# Original source files kept locally
+data/raw/
+
+# Deferred COVID extension
+data/reference/covid_periods.csv
+notebooks/03_covid_home_advantage.ipynb

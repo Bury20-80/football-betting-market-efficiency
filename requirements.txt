@@ -1,0 +1,7 @@
+numpy
+pandas
+matplotlib
+sqlalchemy
+psycopg2-binary
+python-dotenv
+jupyter
