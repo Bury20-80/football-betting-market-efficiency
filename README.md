@@ -268,12 +268,6 @@ Power BI
 
 Local PostgreSQL credentials are stored in `.env`, which is excluded from version control.
 
-## Planned Extension
-
-A later version will examine **COVID-19 home-advantage changes and market adaptation** using verified league-specific restriction periods.
-
-The current repository is a complete **non-COVID v1**.
-
 ## Responsible Interpretation
 
 This project evaluates betting-market efficiency. It is **not a betting recommendation or a claim of a profitable strategy**.
