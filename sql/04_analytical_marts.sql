@@ -98,21 +98,17 @@ GROUP BY
 
 
 -- ============================================================
--- FUTURE MARTS
--- Do not implement before methodological rules are frozen.
+-- ANALYSES INTENTIONALLY KEPT IN PYTHON
 -- ============================================================
 
--- TODO: mart_calibration_bins
--- Requires approved probability-bin boundaries and sparse-bin rules.
-
--- TODO: mart_favourite_longshot
--- Requires approved odds-band boundaries and sparse-group rules.
-
--- TODO: mart_home_advantage_period
--- Requires approved league-specific COVID period definitions.
-
--- TODO: mart_bootstrap_intervals
--- Bootstrap will be calculated in Python and exported for Power BI.
+-- Calibration bins, favourite-longshot ROI, validation-period
+-- comparisons, and bootstrap confidence intervals are intentionally
+-- calculated in the Python notebooks rather than duplicated as SQL marts.
+--
+-- Reason: these analyses depend on pre-defined analytical rules,
+-- train/validation splits, sparse-group handling, and match-level
+-- bootstrap resampling. SQL remains the source for validated match-
+-- and selection-level analytical data; Python owns the statistical layer.
 
 
 -- ============================================================
